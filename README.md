@@ -4,8 +4,8 @@
 
 Python tool to extract a bounding box of a given radius around a center location (longitude, latitude) using the [Planet Tiles API](https://developers.planet.com/docs/basemaps/tile-services/).
 
-The bounding box is projected onto longitude and latitude using the (World Geodetic System 1984 WGS84)[https://earth-info.nga.mil/index.php?dir=wgs84&action=wgs84].
-The Planet Tiles API is indexed using (Spherical Mercator Projection)[http://earth-info.nga.mil/GandG/wgs84/web_mercator/%28U%29%20NGA_SIG_0011_1.0.0_WEBMERC.pdf].
+The bounding box is projected onto longitude and latitude using the [World Geodetic System 1984 WGS84](https://earth-info.nga.mil/index.php?dir=wgs84&action=wgs84).
+The Planet Tiles API is indexed using [Spherical Mercator Projection](http://earth-info.nga.mil/GandG/wgs84/web_mercator/%28U%29%20NGA_SIG_0011_1.0.0_WEBMERC.pdf).
 
 Images are prepared and processed as follows:
 
@@ -57,4 +57,4 @@ image = planetapi.Process(latitude, longitude)
 
 ## Licesne
 
-[MIT Licesne](LICENSE.md]
+[(MIT Licesne](LICENSE.md)
