@@ -9,7 +9,7 @@ The Planet Tiles API is indexed using [Spherical Mercator Projection](http://ear
 
 Images are prepared and processed as follows:
 
-1. Prepare URLs by filling templates from Planet Tiles API with the corresponding mercantiles. A bounding box may lie on 1, 2, or 4 tiles.
+1. Prepare URLs by filling templates from Planet Tiles API with the corresponding tiles. A bounding box may lie on 1, 2, or 4 tiles.
 
 2. The image data is downloaded from the URLs.
 
