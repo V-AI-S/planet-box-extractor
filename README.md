@@ -57,4 +57,4 @@ image = planetapi.Process(latitude, longitude)
 
 ## Licesne
 
-[(MIT Licesne](LICENSE.md)
+[MIT Licesne](LICENSE.md)
