@@ -4,7 +4,8 @@ A tool to extract a bounding box of a given radius around a center location (lon
 
 ## Setup:
 
-```git clone https://github.com/V-AI-S/planet-data-processing.git
+```
+git clone https://github.com/V-AI-S/planet-data-processing.git
 cd planet-data-processing
 pip install --upgrade build
 pip build .
@@ -13,7 +14,8 @@ pip install .
 
 ## Example Usage:
 
-```from planet_downloader import PlanetDownloader
+```
+from planet_downloader import PlanetDownloader
 
 radius = 0.2
 zoom = 15
