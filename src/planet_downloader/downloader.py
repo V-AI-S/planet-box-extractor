@@ -8,9 +8,9 @@ import mercantile
 
 import numpy as np
 
-class PlanetDownloader:
+class PlanetBoxExtractor:
     """
-    Download RGB images from Planet Tiles API
+    Download satellite images from Planet Tiles API
     
     @radius: distance from the center of the image to the edge in kilometers
     @zoom: level of zoom in the Mercantiles
@@ -22,8 +22,8 @@ class PlanetDownloader:
     locations: clockwise order of the tiles
     
     Usage:
-    planetapi = PlanetDownloader(radius, zoom, map_id, API_KEY)
-    image = planetapi.Process(latitude, longitude)
+    extractor = PlanetBoxExtractor(radius, zoom, map_id, API_KEY)
+    image = extractor.Process(latitude, longitude)
     """
     def __init__(self, radius, zoom, map_id, api_key):
         self.radius = radius
@@ -116,5 +116,5 @@ if __name__ == '__main__':
     API_KEY = ''
     map_id = ''
     
-    planetapi = PlanetDownloader(radius, zoom, map_id, API_KEY)
-    image = planetapi.Process(latitude, longitude)
+    extractor = PlanetBoxExtractor(radius, zoom, map_id, API_KEY)
+    image = extractor.Process(latitude, longitude)
