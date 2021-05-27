@@ -1,1 +1,1 @@
-from .downloader import PlanetDownloader
+from .extractor import PlanetBoxExtractor

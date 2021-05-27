@@ -10,7 +10,7 @@ import numpy as np
 
 class PlanetBoxExtractor:
     """
-    Download satellite images from Planet Tiles API
+    Extract bounding boxes from satellite images using Planet Tiles API
     
     @radius: distance from the center of the image to the edge in kilometers
     @zoom: level of zoom in the Mercantiles
