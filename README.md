@@ -59,7 +59,7 @@ image = extractor.Process(latitude, longitude)
 
 ## Documentation
 
-Browse the API documentation in the directory [docs](docs).
+Browse the API documentation [here](https://v-ai-s.github.io/planet-box-extractor/).
 
 ## Licesne
 
