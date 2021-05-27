@@ -45,7 +45,7 @@ pip install .
 
 ## Example Usage:
 
-```
+```python
 from planet_box_extractor import PlanetBoxExtractor
 
 radius = 0.2
