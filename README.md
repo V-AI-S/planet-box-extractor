@@ -1,5 +1,7 @@
 # Planet-Box-Extractor
 
+![Tiles](tiles.png)
+
 ## Description
 
 Python tool to extract a bounding box of a given radius around a center location (longitude, latitude) using the [Planet Tiles API](https://developers.planet.com/docs/basemaps/tile-services/).
