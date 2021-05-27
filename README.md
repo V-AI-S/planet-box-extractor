@@ -57,6 +57,10 @@ extractor = PlanetBoxExtractor(radius, zoom, map_id, API_KEY)
 image = extractor.Process(latitude, longitude)
 ```
 
+## Documentation
+
+Browse the API documentation in the directory [docs](docs).
+
 ## Licesne
 
 [MIT Licesne](LICENSE.md)
