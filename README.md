@@ -1,4 +1,4 @@
-# Planet-Downloader
+# Planet-Box-Extractor
 
 ## Description
 
@@ -34,8 +34,8 @@ Images are prepared and processed as follows:
 ## Setup:
 
 ```
-git clone https://github.com/V-AI-S/planet-data-processing.git
-cd planet-data-processing
+git clone https://github.com/V-AI-S/planet-box-extractor.git
+cd planet-box-extractor
 pip install --upgrade build
 pip build .
 pip install .
@@ -44,15 +44,15 @@ pip install .
 ## Example Usage:
 
 ```
-from planet_downloader import PlanetDownloader
+from planet_box_extractor import PlanetBoxExtractor
 
 radius = 0.2
 zoom = 15
 map_id = '' # can be found in the Planet Explorer
 API_KEY = '' # can be found in the user account
 
-planetapi = PlanetDownloader(radius, zoom, map_id, API_KEY)
-image = planetapi.Process(latitude, longitude)
+extractor = PlanetBoxExtractor(radius, zoom, map_id, API_KEY)
+image = extractor.Process(latitude, longitude)
 ```
 
 ## Licesne
