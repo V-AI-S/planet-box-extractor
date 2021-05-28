@@ -21,6 +21,8 @@ Images are prepared and processed as follows:
 
 5. Crop the bounding box from the stitched image.
 
+We wrote a blog post with more details about the foundational concepts behind the API. You find it [here](https://v-ai-s.medium.com/introducing-planet-box-extractor-api-656e507478c3).
+
 
 ## Requiriments
 
